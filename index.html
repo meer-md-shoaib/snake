@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-wrapper">
+    <div class="header">
+      <div class="logo">
+        <span class="logo-icon">🐍</span>
+        <h1>Snake</h1>
+      </div>
+      <div class="scores">
+        <div class="score-box">
+          <span class="score-label">Score</span>
+          <span id="score" class="score-value">0</span>
+        </div>
+        <div class="score-box best">
+          <span class="score-label">Best</span>
+          <span id="highScore" class="score-value">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="canvas-container">
+      <canvas id="gameCanvas"></canvas>
+      <div id="overlay" class="overlay">
+        <div class="overlay-content">
+          <h2 id="overlayTitle">Snake</h2>
+          <p id="overlayMessage">Use arrow keys or WASD to move</p>
+          <button id="startBtn" class="btn">Play</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls-hint">
+      <div class="key-row">
+        <kbd>W</kbd><kbd>↑</kbd>
+      </div>
+      <div class="key-row">
+        <kbd>A</kbd><kbd>←</kbd>
+        <kbd>S</kbd><kbd>↓</kbd>
+        <kbd>D</kbd><kbd>→</kbd>
+      </div>
+      <span class="hint-text">Arrow keys &bull; WASD &bull; Space to pause</span>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
