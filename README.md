@@ -11,6 +11,7 @@ A simple browser-based Snake Game built using **HTML**, **CSS**, and **JavaScrip
 [![GitHub](https://img.shields.io/badge/GitHub-meer--md--shoaib-181717?style=for-the-badge&logo=github)](https://github.com/meer-md-shoaib)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Meer%20Mohammed%20Shoaib-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/meermohammedshoaib/)
 [![Email](https://img.shields.io/badge/Email-shoaibmeermd%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shoaibmeermd@gmail.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-2EA44F?style=for-the-badge&logo=vercel&logoColor=white)](https://meer-md-shoaib.itch.io/snake)
 
 </div>
 
